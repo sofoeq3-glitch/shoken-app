@@ -364,7 +364,7 @@ ${limit}文字以内。漢字・ひらがな・カタカナ・句読点すべて
             background: generating ? "#aaa" : "#1a3a2a",
             color: "white", border: "none", fontSize: 15, fontWeight: 700,
             cursor: generating ? "not-allowed" : "pointer", fontFamily: "inherit"
-          }}>{generating ? "生成中..." : "AIで所見を生成する"}</button>
+          }}>{generating ? "生成中..." : "所見を書く"}</button>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
           <div style={{ ...S.card, flex: 1, display: "flex", flexDirection: "column", gap: 10 }}>
